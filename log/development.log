@@ -610,3 +610,10 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.7ms)
+Started GET "/hello_world" for 174.20.137.110 at 2019-04-29 10:12:46 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/first_page.html.erb within layouts/application
+  Rendered static/first_page.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 436ms (Views: 427.1ms | ActiveRecord: 0.0ms)
+
+
